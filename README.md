@@ -14,7 +14,7 @@ Objective: Showcase products with high-quality images and descriptions, offering
 
 Techniques Used: Responsive Web Design, Semantic HTML Structure, CSS Flexbox and Grid Layouts, CSS Animations and Transitions.
 
-Built using HTML, CSS and Javascript.
+Built using HTML, CSS 
 
 
 Scroll Reveal, a Javascript library that reveal elements when a user scroll into them is also used in the project.

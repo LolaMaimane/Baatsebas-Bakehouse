@@ -1,0 +1,186 @@
+<html>
+ <head>
+  <title>
+   Baatseba's Bakehouse
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .navbar {
+            background-color: #007b8a;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar .logo {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo img {
+            height: 50px;
+        }
+        .navbar .menu {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar .menu li {
+            margin: 0 15px;
+        }
+        .navbar .menu li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .navbar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .icons i {
+            color: white;
+            font-size: 20px;
+            margin-left: 15px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px 20px;
+            background-color: #d8a7b1;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero .text {
+            max-width: 50%;
+        }
+        .hero .text h1 {
+            color: white;
+            font-size: 48px;
+            margin: 0 0 20px;
+        }
+        .hero .text p {
+            color: white;
+            font-size: 16px;
+            margin: 0 0 20px;
+        }
+        .hero .text .btn {
+            background-color: #007b8a;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .hero .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .donut {
+            position: absolute;
+            top: -100px;
+            animation: fall linear infinite;
+        }
+        @keyframes fall {
+            0% {
+                top: -100px;
+                opacity: 1;
+            }
+            100% {
+                top: 100vh;
+                opacity: 0;
+            }
+        }
+        .donut:nth-child(1) {
+            left: 10%;
+            animation-duration: 5s;
+        }
+        .donut:nth-child(2) {
+            left: 30%;
+            animation-duration: 7s;
+        }
+        .donut:nth-child(3) {
+            left: 50%;
+            animation-duration: 6s;
+        }
+        .donut:nth-child(4) {
+            left: 70%;
+            animation-duration: 8s;
+        }
+        .donut:nth-child(5) {
+            left: 90%;
+            animation-duration: 4s;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <div class="logo">
+    <img alt="Baatseba's Bakehouse Logo" height="50" src="baatsebas images/logo2.png" width="50"/>
+   </div>
+   <ul class="menu">
+    <li>
+     <a href="#">
+      Cakes
+     </a>
+    </li>
+    <li>
+     <a href="#">
+    Our Boxes
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      Sweet Treats
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      About
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      Review
+     </a>
+    </li>
+    <li>
+     <a href="#">
+      Contact
+     </a>
+    </li>
+   </ul>
+   <div class="icons">
+    <i class="fas fa-search">
+    </i>
+    <i class="fas fa-shopping-cart">
+    </i>
+   </div>
+  </div>
+  <div class="hero">
+   <div class="text">
+    <h1>
+        Baatseba's Bake House: Where Every Bite Feels Like Home
+    </h1>
+    <p>
+        "Knead to Know: Baatseba's Best"
+    </p>
+    <a class="btn" href="#">
+     Get Yours Now
+    </a>
+   </div>
+   <div class="image">
+    <img alt="Rolling donut with colorful sprinkles" height="500" src="https://storage.googleapis.com/a1aa/image/YwJVp2exKMSAViqTSku2EAh1m3bqdTnEArmccYhAkceEjJoTA.jpg" width="500"/>
+   </div>
+   <img alt="Donut with pink icing" class="donut" height="50" src="https://storage.googleapis.com/a1aa/image/YwJVp2exKMSAViqTSku2EAh1m3bqdTnEArmccYhAkceEjJoTA.jpg" width="50"/>
+   <img alt="Donut with chocolate icing" class="donut" height="50" src="https://storage.googleapis.com/a1aa/image/eFf1sLfxkf1GNRYBF3bv6yQSmwcnefe8w27GVOs8n7TyixE0JA.jpg" width="50"/>
+   <img alt="Donut with white icing" class="donut" height="50" src="https://storage.googleapis.com/a1aa/image/TJhkWWYVAv4UP5A1wP4IPCA3M2TESUY29RnsNECoMfChxE0JA.jpg" width="50"/>
+   <img alt="Donut with sprinkles" class="donut" height="50" src="https://storage.googleapis.com/a1aa/image/pVYp5UQsu4pyC1SIYGcTaowiub1WvesjYfCspfg6De6GMmgOB.jpg" width="50"/>
+   <img alt="Donut with caramel icing" class="donut" height="50" src="https://storage.googleapis.com/a1aa/image/m35zo8KZWOKlA5ukZdulRvDfKN8ilP4zkfrrc6TcFWcGjJoTA.jpg" width="50"/>
+  </div>
+ </body>
+</html>
